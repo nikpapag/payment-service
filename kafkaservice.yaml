@@ -8,7 +8,7 @@ pipeline:
     - stage:
         name: DeployKafka
         identifier: DeployKafka
-        description: ""
+        description: "Something new"
         type: Deployment
         spec:
           deploymentType: Ssh
